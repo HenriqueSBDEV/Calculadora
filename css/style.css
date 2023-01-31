@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#img2{
+    display: none;
+}
+
+.nome{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+}
+
+#imgpai{
+    display: flex;
+    justify-content: flex-end;
+}
+
+img{
+    margin: 10px;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+#res{
+    text-align: right;
+    margin: 12px;
+    border: 3px solid rgba(0, 0, 0, 0.418);
+    padding: 5px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background: rgb(58,136,180);
+    background: -moz-linear-gradient(90deg, rgba(58,136,180,1) 0%, rgba(29,243,253,1) 50%, rgba(69,95,252,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(58,136,180,1) 0%, rgba(29,243,253,1) 50%, rgba(69,95,252,1) 100%);
+    background: linear-gradient(90deg, rgba(58,136,180,1) 0%, rgba(29,243,253,1) 50%, rgba(69,95,252,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a88b4",endColorstr="#455ffc",GradientType=1);
+}
+
+.calculator{
+    background-color: rgba(255, 247, 247, 0.7);
+    width: 300px;
+    margin: 0 auto;
+    height: 400px;
+    border-radius: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.336);
+    margin-top: 12%;
+}
+
+.botoes{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    border: 1px solid rgba(66, 62, 62, 0.425);
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    width: 200px;
+    margin: auto;
+    background-color: rgba(197, 193, 193, 0.473);
+}
+
+
+#igual{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    border-radius: 15px;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+#zero{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start:5;
+    grid-row-end: 6;
+}
+
+button{
+    padding: 10px;
+    border-radius: 20px;
+    margin: 5px;
+}
